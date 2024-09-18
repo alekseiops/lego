@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-acme/lego/v4/platform/tester"
-	"github.com/go-acme/lego/v4/providers/dns/otc/internal"
+	"github.com/alekseiops/lego/v4/platform/tester"
+	"github.com/alekseiops/lego/v4/providers/dns/otc/internal"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/alekseiops/lego/v4/log"
+	"github.com/alekseiops/lego/v4/providers/dns/internal/errutils"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/go-acme/lego/v4/log"
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
 )
 
 const defaultBaseURL = "https://api.dynu.com/v2"

@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
+	"github.com/alekseiops/lego/v4/providers/dns/internal/errutils"
 )
 
 // defaultBaseURL is the GleSYS API endpoint used by Present and CleanUp.

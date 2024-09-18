@@ -775,7 +775,7 @@ There was a problem when creating the tag v3.0.1, this tag has been invalidated.
 ## [v3.0.0] - 2019-08-05
 
 ### Changed:
-- migrate to go module (new import github.com/go-acme/lego/v3/)
+- migrate to go module (new import github.com/alekseiops/lego/v3/)
 - update DNS clients
 
 ## [v2.7.2] - 2019-07-30
@@ -1187,8 +1187,8 @@ There was a problem when creating the tag v3.0.1, this tag has been invalidated.
 ## [0.1.0] - 2015-12-03
 - Initial release
 
-[0.3.1]: https://github.com/go-acme/lego/compare/v0.3.0...v0.3.1
-[0.3.0]: https://github.com/go-acme/lego/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/go-acme/lego/compare/v0.1.1...v0.2.0
-[0.1.1]: https://github.com/go-acme/lego/compare/v0.1.0...v0.1.1
-[0.1.0]: https://github.com/go-acme/lego/tree/v0.1.0
+[0.3.1]: https://github.com/alekseiops/lego/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/alekseiops/lego/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/alekseiops/lego/compare/v0.1.1...v0.2.0
+[0.1.1]: https://github.com/alekseiops/lego/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/alekseiops/lego/tree/v0.1.0

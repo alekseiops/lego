@@ -9,6 +9,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/alekseiops/lego/v4/challenge/dns01"
+	"github.com/alekseiops/lego/v4/platform/config/env"
+	"github.com/alekseiops/lego/v4/platform/wait"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/aws/retry"
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"
@@ -17,9 +20,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/route53"
 	awstypes "github.com/aws/aws-sdk-go-v2/service/route53/types"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/platform/wait"
 )
 
 // Environment variables names.

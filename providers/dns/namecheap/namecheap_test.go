@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-acme/lego/v4/providers/dns/namecheap/internal"
+	"github.com/alekseiops/lego/v4/providers/dns/namecheap/internal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

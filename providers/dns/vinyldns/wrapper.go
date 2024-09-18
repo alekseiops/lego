@@ -3,8 +3,8 @@ package vinyldns
 import (
 	"fmt"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/wait"
+	"github.com/alekseiops/lego/v4/challenge/dns01"
+	"github.com/alekseiops/lego/v4/platform/wait"
 	"github.com/vinyldns/go-vinyldns/vinyldns"
 )
 

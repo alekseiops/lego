@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
+	"github.com/alekseiops/lego/v4/challenge/dns01"
+	"github.com/alekseiops/lego/v4/platform/config/env"
 	"github.com/vultr/govultr/v3"
 	"golang.org/x/oauth2"
 )

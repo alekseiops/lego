@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
+	"github.com/alekseiops/lego/v4/providers/dns/internal/errutils"
 )
 
 type token string

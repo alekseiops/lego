@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
+	"github.com/alekseiops/lego/v4/challenge/dns01"
 	"github.com/cloudflare/cloudflare-go"
-	"github.com/go-acme/lego/v4/challenge/dns01"
 )
 
 type metaClient struct {

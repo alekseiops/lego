@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/alekseiops/lego/v4/providers/dns/internal/errutils"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/go-acme/lego/v4/providers/dns/internal/errutils"
 )
 
 const (

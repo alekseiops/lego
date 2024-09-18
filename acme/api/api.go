@@ -9,12 +9,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/alekseiops/lego/v4/acme"
+	"github.com/alekseiops/lego/v4/acme/api/internal/nonces"
+	"github.com/alekseiops/lego/v4/acme/api/internal/secure"
+	"github.com/alekseiops/lego/v4/acme/api/internal/sender"
+	"github.com/alekseiops/lego/v4/log"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/go-acme/lego/v4/acme"
-	"github.com/go-acme/lego/v4/acme/api/internal/nonces"
-	"github.com/go-acme/lego/v4/acme/api/internal/secure"
-	"github.com/go-acme/lego/v4/acme/api/internal/sender"
-	"github.com/go-acme/lego/v4/log"
 )
 
 // Core ACME/LE core API.
