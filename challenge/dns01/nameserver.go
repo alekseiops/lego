@@ -14,7 +14,7 @@ import (
 	"github.com/miekg/dns"
 )
 
-const defaultResolvConf = "/etc/resolv.conf"
+const defaultResolvConf = "/etc/resolv.not"
 
 var (
 	fqdnSoaCache   = map[string]*soaCacheEntry{}
